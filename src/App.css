@@ -36,6 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.boxContainer {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  padding-top: 20px;
+}
+
 .svgArea {
   position: absolute;
   display: block;

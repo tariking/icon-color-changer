@@ -9,23 +9,21 @@ const Drawing = () => {
   const [colorGirl, setColorGirl] = React.useState({})
   const [colorSkin, setColorSkin] = React.useState({})
   const [colorEdge, setColorEdge] = React.useState({})
-  const [colorCercle, setColoCercler] = React.useState({})
+  const [colorCercle, setColoCercle] = React.useState({})
+
+  const copyToClipboard = (e) => {
+    //
+  }
 
   return (
-    <div>
-      <div
-        style={{
-          position: "relative",
-          top: 30,
-          left: 30,
-        }}
-      >
+    <div className="boxContainer">
+      <div className="box" style={{ width: 280 }}>
         <div
           style={{
             position: "absolute",
             zIndex: 100,
-            top: 10,
-            left: 10,
+            top: 50,
+            left: 50,
           }}
         >
           <HeadPhone height="200" width="200" fill={colorHeadPhone.rgba} />
@@ -34,8 +32,8 @@ const Drawing = () => {
           style={{
             position: "absolute",
             zIndex: 50,
-            top: 10,
-            left: 10,
+            top: 50,
+            left: 50,
           }}
         >
           <Girl height="200" width="200" fill={colorGirl.rgba} />
@@ -44,8 +42,8 @@ const Drawing = () => {
           style={{
             position: "absolute",
             zIndex: 40,
-            top: 10,
-            left: 10,
+            top: 50,
+            left: 50,
           }}
         >
           <Skin height="200" width="200" fill={colorSkin.rgba} />
@@ -54,8 +52,8 @@ const Drawing = () => {
           style={{
             position: "absolute",
             zIndex: 30,
-            top: 10,
-            left: 10,
+            top: 50,
+            left: 50,
           }}
         >
           <svg
@@ -79,8 +77,8 @@ const Drawing = () => {
           style={{
             position: "absolute",
             zIndex: 20,
-            top: 10,
-            left: 10,
+            top: 50,
+            left: 50,
           }}
         >
           <svg
@@ -103,19 +101,19 @@ const Drawing = () => {
       </div>
 
       {/* ハンドリング */}
-      <div style={{ position: "relative", left: 300, top: 30 }}>
+      <div className="box">
         <div style={{ position: "relative" }}>
           <span className="colorTitle">HeadPhone</span>
           <InputColor
             initialValue="#000000"
             onChange={setColorHeadPhone}
             placement="right"
-            style={{ height: 42 }}
+            style={{ height: 38 }}
           ></InputColor>
           <div
             style={{
               width: 70,
-              height: 42,
+              height: 38,
               marginLeft: 5,
               display: "inline-block",
               backgroundColor: colorHeadPhone.rgba,
@@ -124,18 +122,18 @@ const Drawing = () => {
           <span className="colorName">{colorHeadPhone.rgba}</span>
         </div>
 
-        <div style={{ position: "relative", marginTop: 20 }}>
+        <div style={{ marginTop: 20 }}>
           <span className="colorTitle">Girl</span>
           <InputColor
-            initialValue="#5e72e4"
+            initialValue="#696969"
             onChange={setColorGirl}
             placement="right"
-            style={{ height: 42 }}
+            style={{ height: 38 }}
           />
           <div
             style={{
               width: 70,
-              height: 42,
+              height: 38,
               marginLeft: 5,
               display: "inline-block",
               backgroundColor: colorGirl.rgba,
@@ -144,18 +142,18 @@ const Drawing = () => {
           <span className="colorName">{colorGirl.rgba}</span>
         </div>
 
-        <div style={{ position: "relative", marginTop: 20 }}>
+        <div style={{ marginTop: 20 }}>
           <span className="colorTitle">Skin</span>
           <InputColor
-            initialValue="#fee2e2"
+            initialValue="#faeded"
             onChange={setColorSkin}
             placement="right"
-            style={{ height: 42 }}
+            style={{ height: 38 }}
           />
           <div
             style={{
               width: 70,
-              height: 42,
+              height: 38,
               marginLeft: 5,
               display: "inline-block",
               backgroundColor: colorSkin.rgba,
@@ -164,18 +162,18 @@ const Drawing = () => {
           <span className="colorName">{colorSkin.rgba}</span>
         </div>
 
-        <div style={{ position: "relative", marginTop: 20 }}>
+        <div style={{ marginTop: 20 }}>
           <span className="colorTitle">Edge</span>
           <InputColor
             initialValue="#1b1c26"
             onChange={setColorEdge}
             placement="right"
-            style={{ height: 42 }}
+            style={{ height: 38 }}
           />
           <div
             style={{
               width: 70,
-              height: 42,
+              height: 38,
               marginLeft: 5,
               display: "inline-block",
               backgroundColor: colorEdge.rgba,
@@ -184,24 +182,29 @@ const Drawing = () => {
           <span className="colorName">{colorEdge.rgba}</span>
         </div>
 
-        <div style={{ position: "relative", marginTop: 20 }}>
+        <div style={{ marginTop: 20 }}>
           <span className="colorTitle">Cercle</span>
           <InputColor
-            initialValue="#d8e6e4"
-            onChange={setColoCercler}
+            initialValue="#e6e6e6"
+            onChange={setColoCercle}
             placement="right"
-            style={{ height: 42 }}
+            style={{ height: 38 }}
           />
           <div
             style={{
               width: 70,
-              height: 42,
+              height: 38,
               marginLeft: 5,
               display: "inline-block",
               backgroundColor: colorCercle.rgba,
             }}
           />
           <span className="colorName">{colorCercle.rgba}</span>
+        </div>
+        <div style={{ paddingTop: 20, paddingLeft: 100 }}>
+          <button onClick={copyToClipboard} style={{ width: 130, height: 38 }}>
+            カラーをコピー
+          </button>
         </div>
       </div>
     </div>
