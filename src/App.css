@@ -49,25 +49,33 @@
   padding-top: 20px;
 }
 
-.svgArea {
-  position: absolute;
-  display: block;
-  margin: 50px;
+.svgImage {
+  top: 50px;
+  left: 50px;
 }
 
 .colorTitle {
-  width: 90px;
+  width: 70px;
   display: inline-block;
   vertical-align: top;
-  padding: 10px;
+  padding: 10px 5px;
   text-align: right;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.colorNameContainer {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .colorName {
-  width: 150px;
-  display: inline-block;
   vertical-align: top;
-  padding: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .colorSample {
@@ -77,6 +85,27 @@
   padding: 10px;
 }
 
-.css-1yn2e29-InputColor {
-  height: 43;
+.btnCopy {
+  appearance: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: #e6e6e6;
+  padding: 0.4em 0.75em;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.footer {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.footer h1 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: normal;
+  display: inline-block;
 }
