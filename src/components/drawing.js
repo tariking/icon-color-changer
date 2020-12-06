@@ -58,11 +58,11 @@ const Drawing = () => {
             <circle
               id="縁"
               fill="none"
-              strokeWidth="15px"
+              strokeWidth="14px"
               stroke={colorEdge.rgba}
               cx="400"
               cy="400"
-              r="395"
+              r="393"
             />
           </svg>
         </div>
