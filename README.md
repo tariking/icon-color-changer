@@ -69,7 +69,7 @@ Project Link: [https://color-changer.gg-box.com/](https://color-changer.gg-box.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[node-shield]: https://img.shields.io/badge/Node.js-v12.14.0-339933.svg?logo=node.js&style=for-the-badge"
-[javascript-shield]: https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=for-the-badge"
-[react-shield]: https://img.shields.io/badge/-React-555.svg?logo=react&style=for-the-badge"
-[netlify-shield]: https://img.shields.io/badge/-Netlify-15847D.svg?logo=netlify&style=for-the-badge"
+[node-shield]: https://img.shields.io/badge/Node.js-v12.14.0-339933.svg?logo=node.js&style=for-the-badge
+[javascript-shield]: https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=for-the-badge
+[react-shield]: https://img.shields.io/badge/-React-555.svg?logo=react&style=for-the-badge
+[netlify-shield]: https://img.shields.io/badge/-Netlify-15847D.svg?logo=netlify&style=for-the-badge
