@@ -6,8 +6,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+  <a href="https://color-changer.gg-box.com/">
+    <img src="images/logo.jpg" alt="Logo" width="180" height="180">
   </a>
 
   <h2 align="center">icon-color-changer</h2>
