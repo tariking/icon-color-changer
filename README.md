@@ -19,6 +19,7 @@
 </p>
 
 SNS で使用しているアイコンの色違いを作るためのアプリ。
+
 色パレットのサイズが大きいので、PC かタブレット推奨。
 
 An app for creating different colors of icons used on SNS.
@@ -60,7 +61,9 @@ Please do not use the created icon.
 
 ## Contact
 
-[@mizki_no](https://twitter.com/mizki_no) - s45.rita@gmail.com
+- [@mizki_no](https://twitter.com/mizki_no)
+- [@ggbox10](https://twitter.com/ggbox10)
+- s45.rita@gmail.com
 
 Project Link: [https://color-changer.gg-box.com/](https://color-changer.gg-box.com/)
 
